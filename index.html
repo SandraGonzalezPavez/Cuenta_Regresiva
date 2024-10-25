@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reloj Cuenta Regresiva</title>
+    <link rel="stylesheet" href="./assets/css/BootstrapcCSS/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="time-container">
+            <div class="horas"></div>
+            <p>Hrs.</p>
+            <div class="minutos"></div>
+            <p>min.</p>
+            <div class="segundos"></div>
+           <p>Seg.</p> 
+        </div>
+
+        <div class="container2">
+            <div class="form-container">
+                <div class="form-group">
+                    <label for="numberInput1">Horas</label>
+                    <input type="number" class="form-control" id="numberInput1" min="00" max="24">
+                </div>
+                <div class="form-group">
+                    <label for="numberInput2">Minutos</label>
+                    <input type="number" class="form-control" id="numberInput2" min="00" max="59">
+                </div>
+                <div class="form-group">
+                    <label for="numberInput3">Segundos</label>
+                    <input type="number" class="form-control" id="numberInput3" min="00" max="59">
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="botones">
+            <button type="button" class="btn btn-primary">Empezar</button>
+    <button type="button" class="btn btn-danger">Cancelar</button>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+    <script src="./assets/js/logica.js"></script>
+    <script src="./assets/js/BootstrapJS/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
